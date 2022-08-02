@@ -13,7 +13,6 @@ const useTrackLocation = () => {
       type: ACTION_TYPE.SET_LAST_LONG,
       payload: { latLong: `${latitude},${longitude}` },
     });
-    // setLatLong(`${latitude},${longitude}`);
     setLocationErrorMsg("");
     setIsFindingLocation(false);
   };
